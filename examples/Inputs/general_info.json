@@ -1,0 +1,147 @@
+{
+    "Materials":{
+        "Rebar": {
+            "fy": 400.0,
+            "fyw": 400.0,
+            "fsu": 480.0,
+            "Es": 200000,
+            "eps_su": 0.08
+        },
+        "Concrete":{
+            "fc0": 16.0
+        }
+    },
+    "SectionDetails":{
+        "Hook": 90.0
+    },
+    "AreaLoad": 8,
+    "Infills": {
+        "Infill1":{
+            "lp": 0.0,
+            "hp": 0.0,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill2":{
+            "lp": 1.0,
+            "hp": 2.0,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill3":{
+            "lp": 1.0,
+            "hp": 2.0,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill4":{
+            "lp": 2.0,
+            "hp": 1.5,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill5":{
+            "lp": 1.5,
+            "hp": 1.5,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill6":{
+            "lp": 0.0,
+            "hp": 0.0,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill7":{
+            "lp": 1.0,
+            "hp": 2.0,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill8":{
+            "lp": 2.0,
+            "hp": 1.5,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill9":{
+            "lp": 2.0,
+            "hp": 1.5,
+            "MechanicalProps": 1,
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        },
+        "Infill10":{
+            "lp": 0.0,
+            "hp": 0.0,
+            "MechanicalProps": {
+                "tw": 80.00,
+                "Ewv": 1873.00,
+                "Ewh": 991.00,
+                "Gw": 1089.00,
+                "v": 0.250,
+                "fwv": 2.020,
+                "fwu": 0.44,
+                "fws": 0.55,
+                "flat": 1.18,
+                "sig_v": 0.0,
+                "sigm_cr": 0.0
+            },
+            "StiffnessReductionType":4,
+            "StrutWidthType":1,
+            "CriticalStressFlag":1,
+            "BackboneType": 4,
+            "EpsThetaFlag": 2,
+            "HysteresisType": 1
+        }
+    },
+    "rigid_diaphragm": 2,
+    "PGA": 0.4,
+    "SoilClass": "C",
+    "NationalAnnex": "",
+    "SpectrumType": 1
+}  
